@@ -1,53 +1,53 @@
 criaCartao(
-    'Programação',
-    'O que é Python?',
-    'O Python é uma linguagem de programação'
+    'Tema CSS',
+    'O que é CSS',
+    'É uma linguagem para estilizar páginas HTML'
 )
 
 criaCartao(
-    'Geografia',
-    'Qual a capital da França?',
-    'A capital da França é Paris'
+    'Tema CSS',
+    'Para que serve o id o CSS',
+    'Estilizar um elemento unico'
 )
 
 criaCartao(
-    'Programação',
-    'O que é uma função?',
-    'Uma função é um bloco de código que executa alguma tarefa'
+    'Tema CSS',
+    'Como mudar a cor de fundo com o CSS?',
+    'Use background-color '
 )
 
 criaCartao(
-    'Língua Inglesa',
-    'Como se diz oi em Inglês?',
-    'Oi em inglês é Hi (RAI)'
+    'tema HTML',
+    'Para que serve a tag <a>?',
+    'Criar links'
 )
 
 criaCartao(
-    'História',
-    'Quem descobriu o Brasil?',
-    'O Brasil foi descoberto por Pedro Álvares Cabral em 1500'
+    'tema HTML',
+    'O que é uma tag <div>?',
+    'Um contêiner de bloco para agrupar elementos'
 )
 
 criaCartao(
-    'Matemática',
-    'Quanto é 5 + 5?',
-    '5 + 5 é igual a 10'
+    'tema HTML',
+    'Como criar um lista numerada?',
+    'Use a tag <ol> com <li>'
 )
 
 criaCartao(
-    'Ciências',
-    'O que é fotossíntese?',
-    'Fotossíntese é o processo pelo qual as plantas produzem alimento usando luz solar'
+    'Tema JavaScript',
+    'O que é JavaScript?',
+    'LInguagem para adicionar interatividade em páginas web'
 )
 
 criaCartao(
-    'Esportes',
-    'Qual esporte é conhecido como o "esporte rei"?',
-    'O futebol é conhecido como o "esporte rei"'
+    'Tema JavaScript',
+    'Como exibir uma mensagem de alerta?',
+    'Use alert()'
 )
 
 criaCartao(
-    'Artes',
-    'Quem pintou a Mona Lisa?',
-    'A Mona Lisa foi pintada por Leonardo da Vinci'
+    'Tema JavaScript',
+    'Para que serve o let no JavaScript?',
+    'Declarar variaveis com escopo de bloco'
 )
