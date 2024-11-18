@@ -1,13 +1,12 @@
 :root {
-    --text-color: #144480; /* Ajustado para garantir contraste com o fundo amarelo */
-    --card-front-color: #144480;
+    --text-color: #DBE4EF;
+    --card-front-color: #fdee65;
     --card-back-color: #00F4BF;
 }
 
 body {
-    background: url('img/bg-desktop.webp') no-repeat center center fixed;
-    background-size: cover;
-    font-family: 'Bai Jamjuree', sans-serif;
+    background: url('img/bg-desktop.webp');
+    font-family: Bai Jamjuree;
 }
 
 #container {
@@ -28,6 +27,7 @@ body {
 .cartao__conteudo {
     background-color: var(--card-front-color);
     text-align: center;
+    /* background-color: aquamarine; */
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
@@ -50,4 +50,67 @@ body {
     padding: 2rem;
     margin-top: 4rem;
     font-size: 1.4vw;
+}
+
+.cartao_conteudo_pergunta p {
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.cartao_conteudo_resposta p {
+    color: var(--card-back-color);
+    font-weight: 700;
+}
+
+.cartao.active .cartao__conteudo {
+    transform: rotateY(180deg);
+}
+
+.cartao_conteudo_pergunta,
+.cartao_conteudo_resposta {
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cartao_conteudo_resposta {
+    transform: rotateY(180deg);
+    background-color: rgba(0, 244, 191, 0.2);
+    border: 4px solid var(--card-back-color);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 560px) {
+    
+    body {
+        background: url('img/bg-mobile.webp'), no-repeat cover;
+    }
+
+    .cartao {
+        flex: 1 0 calc(100% - 1rem)
+    }
+
+    .cartao__conteudo h3 {
+        font-size: 3vw;
+    }
+
+    .cartao__conteudo p {
+        font-size: 3.8vw;
+    }
 }
