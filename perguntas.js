@@ -18,12 +18,12 @@ criaCartao(
 
 criaCartao(
     'Tema HTML',
-    'Para que serve a tag <a>?',
+    'Para que serve a tag < a >?',
     'Criar links'
 )
 criaCartao(
     'Tema HTML',
-    ' O que é uma tag <div>?',
+    ' O que é uma tag < div >?',
     'Um contêiner de bloco para agrupar elementos'
 )
 
@@ -42,7 +42,7 @@ criaCartao(
 criaCartao(
     'Tema JavaScript',
     'Como exibir uma mensagem de alerta?',
-    'Use alert()'
+    'Use alert( )'
 )
 
 criaCartao(
